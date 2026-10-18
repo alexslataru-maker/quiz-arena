@@ -39,3 +39,99 @@ body {
 .score-box {
   background: #25345e;
   padding: 10px;
+border-radius: 12px;
+  font-size: 14px;
+}
+
+.progress {
+  height: 8px;
+  background: #303958;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 24px 0;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #5d7cff, #44e4c0);
+  transition: width .25s;
+}
+
+.info {
+  font-size: 12px;
+  color: #bdc8ef;
+}
+#category {
+  color: #7fe5cf;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 1.35;
+  margin: 26px 0;
+}
+
+#answers {
+  display: grid;
+  gap: 12px;
+}
+}
+
+#feedback {
+  min-height: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#next, #restart {
+  color: #071328;
+  background: linear-gradient(90deg, #85a6ff, #63e9c7);
+  margin-top: 10px;
+}
+
+button.secondary {
+  margin-top: 10px;
+  background: #25345b;
+  color: #e4eaff;
+}
+#final {
+  text-align: center;
+  padding: 20px 0;
+}
+
+#final h2 {
+  font-size: 28px;
+}
+
+.trophy {
+  font-size: 65px;
+}
+
+footer {
+  margin-top: 28px;
+  padding-top: 16px;
+  border-top: 1px solid #344064;
+  color: #aebbe2;
+  text-align: center;
+  font-size: 13px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 380px) {
+  .game {
+    padding: 16px;
+  }
+h1 {
+    font-size: 21px;
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+}
+
