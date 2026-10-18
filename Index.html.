@@ -1,0 +1,36 @@
+
+<div class="game">
+
+  <header class="top">
+
+    <div class="logo">🧠 QUIZ ARENA</div>
+
+    <div class="score-box">⭐ Puncte: <span id="score">0</span></div>
+
+  </header>
+
+  <div class="progress">
+
+    <div id="progressBar"></div>
+
+  </div>
+
+  <div class="info">
+
+    <span id="category">CULTURĂ GENERALĂ</span>
+
+    <span>Întrebarea <b id="level">1</b>/15</span>
+
+  </div>
+
+  <main id="playArea">
+
+    <h1 id="question">Se pregătește jocul...</h1>
+
+    <div id="answers"></div>
+
+    <p id="feedback" aria-live="polite"></p>
+
+    <button id="next" hidden>URMĂTOAREA ÎNTREBARE ➜</button>
+
+  </main>
